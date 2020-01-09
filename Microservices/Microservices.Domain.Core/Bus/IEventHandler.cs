@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using Microservices.Domain.Core.Events;
+using System.Threading.Tasks;
 
 namespace Microservices.Domain.Core.Bus
 {
