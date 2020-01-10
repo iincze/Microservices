@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Domain.Core",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Infra.Bus", "Microservices.Bus\Microservices.Infra.Bus.csproj", "{45E687F9-27D9-41E8-9281-F01AE59B7207}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Infra.IoC", "Microservices.Infra.IoC\Microservices.Infra.IoC.csproj", "{61B70E4F-8A90-4CA7-9CD9-A8105942A71C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{45E687F9-27D9-41E8-9281-F01AE59B7207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45E687F9-27D9-41E8-9281-F01AE59B7207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45E687F9-27D9-41E8-9281-F01AE59B7207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B70E4F-8A90-4CA7-9CD9-A8105942A71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B70E4F-8A90-4CA7-9CD9-A8105942A71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B70E4F-8A90-4CA7-9CD9-A8105942A71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B70E4F-8A90-4CA7-9CD9-A8105942A71C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{188F8E7F-33D6-4B30-9073-6EAC6487DD3C} = {B492C105-6FDA-416D-BE2F-5AA8CDB5DE67}
 		{45E687F9-27D9-41E8-9281-F01AE59B7207} = {8509CBDB-748E-47F9-979B-E84C036A8890}
+		{61B70E4F-8A90-4CA7-9CD9-A8105942A71C} = {0D0036AC-8E9C-4F1F-9D90-D6ACFD8673E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76B3613C-9748-437E-8B61-88B881E13C1E}
