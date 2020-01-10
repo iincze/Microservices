@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0A6620C0-F263-4832-917D-1B5FCE85F829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Domain.Core", "Microservices.Domain.Core\Microservices.Domain.Core.csproj", "{188F8E7F-33D6-4B30-9073-6EAC6487DD3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Domain.Core", "Microservices.Domain.Core\Microservices.Domain.Core.csproj", "{188F8E7F-33D6-4B30-9073-6EAC6487DD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Infra.Bus", "Microservices.Bus\Microservices.Infra.Bus.csproj", "{45E687F9-27D9-41E8-9281-F01AE59B7207}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +27,17 @@ Global
 		{188F8E7F-33D6-4B30-9073-6EAC6487DD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{188F8E7F-33D6-4B30-9073-6EAC6487DD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{188F8E7F-33D6-4B30-9073-6EAC6487DD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E687F9-27D9-41E8-9281-F01AE59B7207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E687F9-27D9-41E8-9281-F01AE59B7207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E687F9-27D9-41E8-9281-F01AE59B7207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E687F9-27D9-41E8-9281-F01AE59B7207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{188F8E7F-33D6-4B30-9073-6EAC6487DD3C} = {B492C105-6FDA-416D-BE2F-5AA8CDB5DE67}
+		{45E687F9-27D9-41E8-9281-F01AE59B7207} = {8509CBDB-748E-47F9-979B-E84C036A8890}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76B3613C-9748-437E-8B61-88B881E13C1E}
